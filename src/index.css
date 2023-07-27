@@ -67,3 +67,36 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+body {
+  background-color: slateblue;
+}
+
+h2{
+  
+}
+
+button{
+  background-color: slateblue;
+  box-shadow: 0 16px 32px 0 black;
+  transition: 0.3ms;
+  margin-top: 1em;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+h2{
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+.Authenticate {
+  margin-top: 1em;
+}

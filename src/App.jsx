@@ -6,6 +6,8 @@ import SignUpForm from './Components/SignUpForm.jsx'
 import Authenticate from './Components/Authenitcate.jsx'
 
 export default function App() {
+
+  const [ token, setToken ] = useState(null)
   
   
   return (
